@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "labels": [
+    {
+      "Adidas": 0.92
+    },
+    {
+      "Shoe": 0.95
+    },
+    {
+      "Phosphere": 0.86
+    },
+    {
+      "Sneaker": 0.91
+    },
+    {
+      "Running Shoe": 0.72
+    }
+  ],
+  "numShoes": 2,
+  "size": "large",
+  "color": ["blue", "red", "white", "grey"],
+  "relatedImages": [
+    "https://images-na.ssl-images-amazon.com/images/I/71cUCpdd20L._UL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81otP6zmzyL._AC_UX625_.jpg",
+    "https://kantcheff.vtexassets.com/arquivos/ids/166527/EG3491-GRETWO-ONIX_3.jpg",
+    "https://static.zattini.com.br/produtos/tenis-adidas-phosphere-masculino/10/NQQ-0148-010/NQQ-0148-010_zoom3.jpg?ts=1584965808&ims=544x",
+    "https://cdnv2.moovin.com.br/palotinaesportes/imagens/produtos/lista/tenis-passeio-adidas-phosphere-masculino-35ab9e9d6e3b488fa4f999863360b902.jpg"
+  ],
+  "assignedQuality": "unassigned"
+}

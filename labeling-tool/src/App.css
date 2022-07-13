@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.App {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.body-width {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav {
+    padding: 10px 0 10px 0;
+    vertical-align: middle;
+    position: sticky;
+    z-index: 20;
+    border-bottom: 1px solid black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container > img {
+    width: 120px;
+    margin-top: -10px;
+}
+
+.nav-container > .burger-menu > div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 7px 0;
+}
+
+.page-title {
+    /*margin-top: 1.5em;*/
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+section#main {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+}
+
+section#main > div {
+    width: 50%;
+}
+
+section#main > div.left-col {
+    padding-right: 1em;
+}
+
+section#main > div.right-col {
+    padding-left: 1em;
+}
+
+.video-container {
+    position: relative;
+    display: block;
+    background-color: #f6f6f6;
+    width: 100%;
+    /*padding-top: 56.25%;*/
+    padding-top: 75%;
+}
+
+/*.video-container > img {*/
+.video-container > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    /*object-fit: cover;*/
+}
+
+.video-container > div > div {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.video-container > div > div > div.rsis-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.video-container > div > div > div > divs {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.labels-container {
+    width: 100%;
+}
+
+.labels-container > div {
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .1em .75em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+}
+
+.labels-container > div > span {
+    color: cadetblue;
+    font-weight: normal;
+    margin-left: .5em;
+}
+
+.pair-indicator {
+    text-transform: uppercase;
+}
+
+.details-container {
+    font-size: 1.5em;
+    margin-top: .5em;
+    line-height: 2em;
+}
+
+.details-container > span.pair-indicator {
+    color: green;
+    font-weight: bold;
+}
+
+.details-container > span.size {
+    text-transform: capitalize;
+}
+
+.details-container > div.color {
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .25em;
+}
+
+.details-container > div.color:last-child {
+    margin-right: 0;
+}
+
+.details-container > div.color > div {
+    display: inline-block;
+    margin: 0 .25em -5px 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.details-container > div.color > span {
+    text-transform: capitalize;
+}
+
+.ref-images-container {
+    width: 100%;
+    height: 150px;
+    background-color: #f6f6f6;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.ref-images-container > img {
+    height: 100%;
+    object-fit: cover;
+    margin-right: 1em;
+}
+
+.buttons-container {
+    width: 100%;
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons-container > button {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: .4em 1.2em;
+    margin-left: 1em;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 2px solid black;
+    background-color: black;
+    color: #ffffff;
+}
+
+.buttons-container > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.buttons-container > button:first-child {
+    margin-left: 0;
+}
+
+.buttons-container > button:last-child {
+    background-color: #ffffff;
+    color: black;
+}
+
+.buttons-container > button:last-child:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+}
+
+footer > div > button.start {
+    width: 75px;
+    height: 75px;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
